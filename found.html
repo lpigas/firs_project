@@ -13,22 +13,35 @@
 
     <div class="foundForm">
       <label for="name2">E-mail</label> 
-      <input type="email" name="text" required id="name2"> 
+      <input class="field" type="email" name="text" required id="name2" placeholder="E-mail"> 
     </div>
 
 
-    <div class="foundForm">
+    <div class="foundForm color">
       <label for="name1"> Password</label> 
-      <input type="password" name="text" required id="name1" minlength="6"> 
+      <input class="field" type="password" name="text" required id="name1" minlength="6" placeholder="password"> 
     </div>
 
 
   <div class="foundForm"> 
-      <label for="name"> С условиями пользоватиельского соглашения согласен</label>
-      <input type="checkbox" name="remember" required id="name">
+      <input class="field" type="checkbox" name="remember" required id="name">
+      <label class="form_label" for="name"> С условиями пользоватиельского соглашения согласен</label>
   </div>
-      
-  <button> Вход</button>
+   <div class="button"><button type="button" > сброс</button> <button type="button" > Вход</button> </div>   
+  
+    
+  <div class="radio_d"> <input class="radio" type="radio" name="choise" value="y"> Да
+    <input class="radio" type="radio" name="choise" value="n"> Нет
+  </div>
+
+<label class="coloe" required>
+  <p>Стиль сайта</p>
+  <select name="color">
+  <option value="" disabled selected></option>
+  <option value="red">Dark</option>
+  <option value="green">White</option>
+  svsdvvvddsdv
+</select></div>
   
   </form>
 </body>

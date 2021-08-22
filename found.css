@@ -3,8 +3,40 @@ margin-top: 6px;
 padding: 10px;
 text-align: center;
 }
+.field::placeholder{
+  
+  color: rgb(118, 118, 214);
+}
+.field:focus{
+  background-color: yellow;
+}
 
-button{
+.field:invalid{
+  border:3px solid red;
+}
+
+.field:checked ~ .form_label{
+  color: rgb(25, 0, 255);
+}
+.radio_d{
+  display: inline;
+  width: 50px;
   text-align: center;
-  margin-left: 800px;
+}
+.button{
+  color: brown;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.radio_d{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.coloe{
+  margin-top: 25px;
+  float:right;
 }
