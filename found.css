@@ -1,4 +1,10 @@
 .foundForm{
-  margin: 6px;
+margin-top: 6px;
 padding: 10px;
+text-align: center;
+}
+
+button{
+  text-align: center;
+  margin-left: 800px;
 }

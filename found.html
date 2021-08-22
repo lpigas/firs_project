@@ -9,31 +9,26 @@
 </head>
 <body>
   <h1>Titel</h1>
-  <form action="" method="post">
-  <div class="foundForm">
-    <label for="name3">Введите два слова поиска</label>  
-    <input type="text" name="text" placeholder="тип товара и модель" required id="name3"> 
-  </div>
-
+  <form action="http://127.0.0.1:5500/found.html" method="post">
 
     <div class="foundForm">
-      <label for="name2"> Почту</label> 
+      <label for="name2">E-mail</label> 
       <input type="email" name="text" required id="name2"> 
     </div>
 
 
     <div class="foundForm">
-      <label for="name1"> Введите свой пароль</label> 
+      <label for="name1"> Password</label> 
       <input type="password" name="text" required id="name1" minlength="6"> 
     </div>
 
 
   <div class="foundForm"> 
-      <label for="name"> Запомнить пароль</label>
-      <input type="checkbox" name="remember" checked id="name">
+      <label for="name"> С условиями пользоватиельского соглашения согласен</label>
+      <input type="checkbox" name="remember" required id="name">
   </div>
       
-  <button> Поиск</button>
+  <button> Вход</button>
   
   </form>
 </body>
