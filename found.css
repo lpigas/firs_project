@@ -1,3 +1,6 @@
+h1{
+  text-align: center;
+}
 .foundForm{
 margin-top: 6px;
 padding: 10px;
@@ -31,13 +34,13 @@ text-align: center;
   text-align: center;
 }
 .radio_d{
-  display: inline;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 .coloe{
-  margin-top: 255px;
-  float:right;
+  float: right ;
 
+  text-align: end;
 }
