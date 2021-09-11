@@ -8,9 +8,9 @@
   <title>Test found</title>
 </head>
 <body>
-  <h1>Название сайта</h1>
-  <form action="http://127.0.0.1:5500/found.html" method="post">
-
+  
+  <form action="http://127.0.0.1:5500/found.html" method="GET">
+    <h1>Название сайта</h1>
     <div class="foundForm">
       <label for="name2">E-mail</label> 
       <input class="field" type="email" name="text" required id="name2" placeholder="E-mail"> 
@@ -22,21 +22,23 @@
       <input class="field" type="password" name="text" required id="name1" minlength="6" placeholder="password"> 
     </div>
 
-
+  <div class="phone">tel  <input type="phone" required placeholder="telephone"></div>
   <div class="foundForm"> 
       <input class="field" type="checkbox" name="remember" required id="name">
       <label class="form_label" for="name"> С условиями пользоватиельского соглашения согласен</label>
   </div>
-   <div class="button"><button type="reset" > сброс</button> <button type="button" > Вход</button> </div>   
+   <div class="button">
+     <button type="reset" > сброс</button> 
+     <button type="submit" > Вход</button> </div>   
 
-<label class="coloe">
+  <label class="coloe">
   <p>Стиль сайта</p>
   <select name="color">
   <option value="" disabled selected></option>
   <option value="red">Dark</option>
   <option value="green">White</option>
-</select></div>
+  </select></div>
   
-  </form>
+</form>
 </body>
 </html>
