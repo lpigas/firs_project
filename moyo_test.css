@@ -1,0 +1,46 @@
+
+body{
+  font-family: Roboto Slab;
+  font-size: 15px;
+  margin: none;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start ;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 3rem;
+ 
+}
+.nav{
+  margin: 5px;
+  padding: 5px 10px;
+
+}
+.box-0{
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-right: 7rem;
+}
+
+
+
+a:visited{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:hover{
+  color: rgb(7, 242, 250);
+  text-decoration: none;
+  
+
+}
+.box:hover{
+  color: rgb(7, 242, 250);
+  text-decoration: none;
+  border-bottom: 3px rgb(7, 242, 250) solid;
+  
+}
